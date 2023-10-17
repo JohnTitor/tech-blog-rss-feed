@@ -29,6 +29,9 @@ export const escapeTextForXml = (text: string) => {
   if (text.includes('&')) {
     text = text.replace(/&/g, '&amp;');
   }
+  if (text.includes('')) {
+    text = text.replace(//g, '');
+  }
 
   return text;
 };
