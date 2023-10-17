@@ -30,6 +30,7 @@ export const escapeTextForXml = (text: string) => {
     text = text.replace(/&/g, '&amp;');
   }
   if (text.includes('')) {
+    // eslint-disable-next-line no-control-regex, no-irregular-whitespace
     text = text.replace(//g, '');
   }
 
