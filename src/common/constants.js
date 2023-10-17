@@ -1,4 +1,4 @@
-const siteUrlStem = 'https://yamadashy.github.io/tech-blog-rss-feed';
+const siteUrlStem = 'https://johntitor.github.io/tech-blog-rss-feed';
 const siteUrl = `${siteUrlStem}/`;
 
 module.exports = {
@@ -22,13 +22,13 @@ module.exports = {
   },
 
   // GitHub
-  author: 'yamadashy',
-  gitHubUserUrl: 'https://github.com/yamadashy/',
-  gitHubRepositoryUrl: 'https://github.com/yamadashy/tech-blog-rss-feed/',
+  author: 'johntitor',
+  gitHubUserUrl: 'https://github.com/johntitor/',
+  gitHubRepositoryUrl: 'https://github.com/johntitor/tech-blog-rss-feed/',
 
   // Google Analytics系。フォークして使う際は値を空にするか書き換えてください
-  googleSiteVerification: 'GPLvXv8kYtLMW912ZS54DKFEZL6ruOrjOFLdHVTo37o',
-  globalSiteTagKey: 'G-CNNNTL0NB3',
+  googleSiteVerification: '',
+  globalSiteTagKey: '',
 
   // フィードの取得などに使う UserAgent
   requestUserAgent: 'facebookexternalhit/1.1; yamadashy/tech-blog-rss-feed',

@@ -27,7 +27,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 14.20.0
+          node-version-file: '.node-version'
           cache: yarn
 
       - name: Install node packages

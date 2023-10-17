@@ -286,7 +286,7 @@ export class FeedCrawler {
       }),
     );
     if (error) {
-      throw new Error(`OGの取得に失敗しました。 url: ${url}`);
+      throw new Error(`OGの取得に失敗しました。 url: ${url}\nerror: ${error}`);
     }
 
     const ogsResult = ogsResponse.result;
